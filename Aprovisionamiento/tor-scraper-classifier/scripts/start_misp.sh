@@ -6,6 +6,12 @@
 
 echo -e "\e[1;30;107mDespliegue de una instancia de MISP (Docker)\e[0m"
 
+echo -e "\e[1;30;107m***Instalación librería requests***\e[0m"
+pip install requests
+
+echo -e "\e[1;30;107m***Instalación librería pymisp***\e[0m"
+pip install pymisp
+
 sudo docker pull harvarditsecurity/misp
 sudo mkdir -p /var/lib/docker/misp-db
 sudo docker run --rm -v /var/lib/docker/misp-db:/var/lib/mysql harvarditsecurity/misp /init-db

@@ -28,12 +28,6 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install docker.io
 echo -e "\e[1;30;107m***Instalación dependencias de Scrapy***\e[0m"
 pip install scrapy
 
-echo -e "\e[1;30;107m***Instalación librería requests***\e[0m"
-pip install requests
-
-echo -e "\e[1;30;107m***Instalación librería pymisp***\e[0m"
-pip install pymisp
-
 #############################################################################################################################################################################
 
 echo -e "\e[1;30;107mConfiguración de ficheros básica necesaria para el funcionamiento del proyecto\e[0m"
