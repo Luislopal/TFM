@@ -28,6 +28,9 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install docker.io
 echo -e "\e[1;30;107m***Instalación dependencias de Scrapy***\e[0m"
 pip install scrapy
 
+sudo pip uninstall pyOpenSSL cryptography -y
+pip install cryptography==36.0.0 pyOpenSSL==21.0.0
+
 #############################################################################################################################################################################
 
 echo -e "\e[1;30;107mConfiguración de ficheros básica necesaria para el funcionamiento del proyecto\e[0m"

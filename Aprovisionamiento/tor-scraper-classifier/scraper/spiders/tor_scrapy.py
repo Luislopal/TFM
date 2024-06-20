@@ -10,7 +10,7 @@ from scraper.middlewares import FilterBannedWordsMiddleware
 
 class ScraperSpider(scrapy.Spider):
     name = 'scraper'
-    allowed_domains = ['*.onion']
+    allowed_domains = []
     custom_settings = {
         'BANNED_WORDS': []
     }
