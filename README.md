@@ -1,3 +1,8 @@
+Para iniciar sesión en la máquina las credenciales son las siguientes:
+
+   Usuario: vagrant
+   Contraseña: vagrant
+
 # El proyecto está distribuido en 5 carpetas o directorios diferentes, dentro de Aprovisionamiento: 
 
     * config: Archivos necesarios en el resto de módulos
