@@ -28,7 +28,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 misp = PyMISP(misp_url, misp_api_key, ssl=misp_verify_cert, debug=False)
 
 # Ruta al archivo JSON que contiene la lista de URLs y contenido (QUITAR EL TEST PARA EJECUCIÓN COMPLETA)
-file_path = "/home/vagrant/Desktop/tor-scraper-classifier/results/scraper_results_test.json"
+file_path = "/home/vagrant/Desktop/tor-scraper-classifier/results/scraper_results.json"
 
 # Contexto general proporcionado al modelo LLM
 contexto = '''
